@@ -24,7 +24,6 @@ class MyThread extends Thread {
 }
 public class Demo {
     public static void main(String[] args) {
-
         Display obj=new Display();
         MyThread t1=new MyThread(obj, "Thread 1");
         MyThread t2=new MyThread(obj, "Thread 2");

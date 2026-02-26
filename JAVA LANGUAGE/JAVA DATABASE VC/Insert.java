@@ -6,7 +6,7 @@ class Insert {
         String user="Puskar";
         String password="2165";
 
-        String insertSql="INSERT INTO student1 (name, roll, class) VALUES (?, ?, ?)";
+        String insertSql="INSERT INTO student1(name, roll, class) VALUES (?, ?, ?)";
         try {
             Connection con=DriverManager.getConnection (url,user,password);
             con.setAutoCommit(false); // manage transaction manually

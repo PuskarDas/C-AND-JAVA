@@ -1,0 +1,4 @@
+[00:00:19.300] Server  LOG     ✓ Ready in 12.3s
+[00:06:44.928] Browser ERROR   unhandledRejection: TypeError: Failed to fetch
+[00:06:45.164] Browser ERROR   unhandledRejection: TypeError: Failed to fetch
+[00:06:49.415] Browser ERROR   unhandledRejection: TypeError: Failed to fetch

@@ -12,7 +12,7 @@ class CounterThread extends Thread {
         for(int i=start;i<=end;i++) {
             System.out.println(Thread.currentThread().getName() +" : "+ i);
             try {
-                Thread.sleep(5); // pause for 5 milliseconds
+                Thread.sleep(1000); // pause for 5 milliseconds
             } catch(InterruptedException e) {
                 System.out.println("Thread interrupted: "+ e.getMessage());
             }
