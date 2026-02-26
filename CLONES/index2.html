@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone - Shoe Store</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/static/content/img/flipkart-logo_9995d0.png" alt="Flipkart">
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search for products, brands and more" id="searchInput">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-links">
+                <button class="login-btn">Login</button>
+                <a href="#">Become a Seller</a>
+                <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <aside class="sidebar">
+            <h3>Filters</h3>
+            <div class="filter-section">
+                <h4>Price</h4>
+                <select id="priceFilter">
+                    <option value="all">All Prices</option>
+                    <option value="under2000">Under ₹2000</option>
+                    <option value="above2000">Above ₹2000</option>
+                </select>
+            </div>
+            <div class="filter-section">
+                <h4>Brand</h4>
+                <label><input type="checkbox" class="brand-check" value="Nike"> Nike</label><br>
+                <label><input type="checkbox" class="brand-check" value="Adidas"> Adidas</label><br>
+                <label><input type="checkbox" class="brand-check" value="Puma"> Puma</label>
+            </div>
+        </aside>
+
+        <section class="products-section">
+            <div class="breadcrumb">Home > Footwear > Men's Shoes</div>
+            <div id="productGrid" class="product-grid">
+                </div>
+        </section>
+    </main>
+
+    <script src="script2.js"></script>
+</body>
+</html>

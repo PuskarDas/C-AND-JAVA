@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "1.C": "cpp",
+        "Stack.C": "cpp",
+        "stdio.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\ojdbc17.jar"
+    ]
+}

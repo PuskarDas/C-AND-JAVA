@@ -1,0 +1,16 @@
+# Dependency folders (usually huge, don't upload these!)
+node_modules/
+bin/
+obj/
+
+# Local environment variables (contain your passwords/API keys)
+.env
+*.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
