@@ -1,4 +1,4 @@
-<h1 align="center">Arnab Chakraborty</h1>
+<h1 align="center">Puskar Das</h1>
 <h3 align="center">B.Tech CSE Student | Aspiring Software Engineer</h3>
 
 ---
